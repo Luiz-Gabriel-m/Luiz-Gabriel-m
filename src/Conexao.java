@@ -16,6 +16,8 @@ public class Conexao {
         String user = "root";
         String password = "euamoaheloa";
 
+        System.out.println("Victor entrou");
+
         try {
 
             Connection conexao = DriverManager.getConnection(url, user, password);
