@@ -23,6 +23,8 @@ public class Conexao {
             //System.out.println("Você conectou-se ao banco de dados desejado com sucesso!");
 
             System.out.println("Olá, tudo bem?");
+            System.out.println("teste");
+
             System.out.println("Seja bem vindo ao VL_PINTURAS_SYSTEM!");
             for (int i = 1; i > 0; i++) {
                 System.out.println("Escolha a opçao que desejas, digitando o número que a corresponde:");
