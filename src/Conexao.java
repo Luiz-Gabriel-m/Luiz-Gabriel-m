@@ -16,6 +16,9 @@ public class Conexao {
         String user = "root";
         String password = "euamoaheloa";
 
+        System.out.println("Victor entrou");
+        System.out.println("top");
+
         try {
 
             Connection conexao = DriverManager.getConnection(url, user, password);
@@ -23,6 +26,7 @@ public class Conexao {
             //System.out.println("Você conectou-se ao banco de dados desejado com sucesso!");
 
             System.out.println("Olá, tudo bem?");
+            System.out.println("teste");
 
             System.out.println("Seja bem vindo ao VL_PINTURAS_SYSTEM!");
             for (int i = 1; i > 0; i++) {
